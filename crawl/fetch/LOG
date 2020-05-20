@@ -1,0 +1,183 @@
+2020/05/02-10:59:23.351673 2f64 RocksDB version: 5.14.2
+2020/05/02-10:59:23.351720 2f64 Git sha rocksdb_build_git_sha:@5089e121166c46956a8a21c8ef967f1896c239de@
+2020/05/02-10:59:23.351738 2f64 Compile date Jul  6 2018
+2020/05/02-10:59:23.351751 2f64 DB SUMMARY
+2020/05/02-10:59:23.351812 2f64 SST files in D:\01workspace\woekspace02\apache-storm-1.2.3\apache-storm-1.2.3\examples\storm-starter\crawl\fetch dir, Total Num: 0, files: 
+2020/05/02-10:59:23.351828 2f64 Write Ahead Log file in D:\01workspace\woekspace02\apache-storm-1.2.3\apache-storm-1.2.3\examples\storm-starter\crawl\fetch: 
+2020/05/02-10:59:23.351840 2f64                         Options.error_if_exists: 0
+2020/05/02-10:59:23.351852 2f64                       Options.create_if_missing: 1
+2020/05/02-10:59:23.351995 2f64                         Options.paranoid_checks: 1
+2020/05/02-10:59:23.352004 2f64                                     Options.env: 00000000012C2C20
+2020/05/02-10:59:23.352010 2f64                                Options.info_log: 0000000022E1AED0
+2020/05/02-10:59:23.352015 2f64                Options.max_file_opening_threads: 16
+2020/05/02-10:59:23.352021 2f64                              Options.statistics: 0000000000000000
+2020/05/02-10:59:23.352026 2f64                               Options.use_fsync: 0
+2020/05/02-10:59:23.352033 2f64                       Options.max_log_file_size: 0
+2020/05/02-10:59:23.352038 2f64                  Options.max_manifest_file_size: 18446744073709551615
+2020/05/02-10:59:23.352044 2f64                   Options.log_file_time_to_roll: 0
+2020/05/02-10:59:23.352049 2f64                       Options.keep_log_file_num: 1000
+2020/05/02-10:59:23.352054 2f64                    Options.recycle_log_file_num: 0
+2020/05/02-10:59:23.352060 2f64                         Options.allow_fallocate: 1
+2020/05/02-10:59:23.352065 2f64                        Options.allow_mmap_reads: 0
+2020/05/02-10:59:23.352070 2f64                       Options.allow_mmap_writes: 0
+2020/05/02-10:59:23.352076 2f64                        Options.use_direct_reads: 0
+2020/05/02-10:59:23.352081 2f64                        Options.use_direct_io_for_flush_and_compaction: 0
+2020/05/02-10:59:23.352086 2f64          Options.create_missing_column_families: 0
+2020/05/02-10:59:23.352092 2f64                              Options.db_log_dir: 
+2020/05/02-10:59:23.352097 2f64                                 Options.wal_dir: D:\01workspace\woekspace02\apache-storm-1.2.3\apache-storm-1.2.3\examples\storm-starter\crawl\fetch
+2020/05/02-10:59:23.352102 2f64                Options.table_cache_numshardbits: 6
+2020/05/02-10:59:23.352108 2f64                      Options.max_subcompactions: 1
+2020/05/02-10:59:23.352113 2f64                  Options.max_background_flushes: -1
+2020/05/02-10:59:23.352118 2f64                         Options.WAL_ttl_seconds: 0
+2020/05/02-10:59:23.352124 2f64                       Options.WAL_size_limit_MB: 0
+2020/05/02-10:59:23.352129 2f64             Options.manifest_preallocation_size: 4194304
+2020/05/02-10:59:23.352134 2f64                     Options.is_fd_close_on_exec: 1
+2020/05/02-10:59:23.352140 2f64                   Options.advise_random_on_open: 1
+2020/05/02-10:59:23.352145 2f64                    Options.db_write_buffer_size: 0
+2020/05/02-10:59:23.352150 2f64                    Options.write_buffer_manager: 0000000023118C50
+2020/05/02-10:59:23.352156 2f64         Options.access_hint_on_compaction_start: 1
+2020/05/02-10:59:23.352161 2f64  Options.new_table_reader_for_compaction_inputs: 0
+2020/05/02-10:59:23.352166 2f64           Options.random_access_max_buffer_size: 1048576
+2020/05/02-10:59:23.352171 2f64                      Options.use_adaptive_mutex: 0
+2020/05/02-10:59:23.352177 2f64                            Options.rate_limiter: 0000000000000000
+2020/05/02-10:59:23.352182 2f64     Options.sst_file_manager.rate_bytes_per_sec: 0
+2020/05/02-10:59:23.352187 2f64                       Options.wal_recovery_mode: 2
+2020/05/02-10:59:23.352193 2f64                  Options.enable_thread_tracking: 0
+2020/05/02-10:59:23.352198 2f64                  Options.enable_pipelined_write: 0
+2020/05/02-10:59:23.352224 2f64         Options.allow_concurrent_memtable_write: 1
+2020/05/02-10:59:23.352231 2f64      Options.enable_write_thread_adaptive_yield: 1
+2020/05/02-10:59:23.352237 2f64             Options.write_thread_max_yield_usec: 100
+2020/05/02-10:59:23.352242 2f64            Options.write_thread_slow_yield_usec: 3
+2020/05/02-10:59:23.352248 2f64                               Options.row_cache: None
+2020/05/02-10:59:23.352253 2f64                              Options.wal_filter: None
+2020/05/02-10:59:23.352258 2f64             Options.avoid_flush_during_recovery: 0
+2020/05/02-10:59:23.352264 2f64             Options.allow_ingest_behind: 0
+2020/05/02-10:59:23.352269 2f64             Options.preserve_deletes: 0
+2020/05/02-10:59:23.352274 2f64             Options.two_write_queues: 0
+2020/05/02-10:59:23.352279 2f64             Options.manual_wal_flush: 0
+2020/05/02-10:59:23.352284 2f64             Options.max_background_jobs: 2
+2020/05/02-10:59:23.352290 2f64             Options.max_background_compactions: -1
+2020/05/02-10:59:23.352295 2f64             Options.avoid_flush_during_shutdown: 0
+2020/05/02-10:59:23.352300 2f64           Options.writable_file_max_buffer_size: 1048576
+2020/05/02-10:59:23.352306 2f64             Options.delayed_write_rate : 16777216
+2020/05/02-10:59:23.352311 2f64             Options.max_total_wal_size: 0
+2020/05/02-10:59:23.352316 2f64             Options.delete_obsolete_files_period_micros: 21600000000
+2020/05/02-10:59:23.352322 2f64                   Options.stats_dump_period_sec: 600
+2020/05/02-10:59:23.352327 2f64                          Options.max_open_files: -1
+2020/05/02-10:59:23.352332 2f64                          Options.bytes_per_sync: 0
+2020/05/02-10:59:23.352338 2f64                      Options.wal_bytes_per_sync: 0
+2020/05/02-10:59:23.352342 2f64       Options.compaction_readahead_size: 0
+2020/05/02-10:59:23.352348 2f64 Compression algorithms supported:
+2020/05/02-10:59:23.352353 2f64 	kZSTD supported: 0
+2020/05/02-10:59:23.352358 2f64 	kSnappyCompression supported: 0
+2020/05/02-10:59:23.352364 2f64 	kBZip2Compression supported: 0
+2020/05/02-10:59:23.352369 2f64 	kZlibCompression supported: 0
+2020/05/02-10:59:23.352374 2f64 	kLZ4Compression supported: 0
+2020/05/02-10:59:23.352379 2f64 	kXpressCompression supported: 0
+2020/05/02-10:59:23.352385 2f64 	kLZ4HCCompression supported: 0
+2020/05/02-10:59:23.352390 2f64 	kZSTDNotFinalCompression supported: 0
+2020/05/02-10:59:23.352396 2f64 Fast CRC32 supported: Supported on x86
+2020/05/02-10:59:23.353094 2f64 [c:\users\aretter\code\rocksdb\db\db_impl_open.cc:222] Creating manifest 1 
+2020/05/02-10:59:23.376691 2f64 [c:\users\aretter\code\rocksdb\db\version_set.cc:3085] Recovering from manifest file: MANIFEST-000001
+2020/05/02-10:59:23.376802 2f64 [c:\users\aretter\code\rocksdb\db\column_family.cc:475] --------------- Options for column family [default]:
+2020/05/02-10:59:23.376817 2f64               Options.comparator: leveldb.BytewiseComparator
+2020/05/02-10:59:23.376826 2f64           Options.merge_operator: None
+2020/05/02-10:59:23.376834 2f64        Options.compaction_filter: None
+2020/05/02-10:59:23.376842 2f64        Options.compaction_filter_factory: None
+2020/05/02-10:59:23.376850 2f64         Options.memtable_factory: SkipListFactory
+2020/05/02-10:59:23.376858 2f64            Options.table_factory: BlockBasedTable
+2020/05/02-10:59:23.376910 2f64            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (00000000230A2CA0)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 0000000023115CA0
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 8388608
+    num_shard_bits : 4
+    strict_capacity_limit : 0
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 2
+  enable_index_compression: 1
+  block_align: 0
+2020/05/02-10:59:23.376958 2f64        Options.write_buffer_size: 67108864
+2020/05/02-10:59:23.376970 2f64  Options.max_write_buffer_number: 2
+2020/05/02-10:59:23.376978 2f64          Options.compression: NoCompression
+2020/05/02-10:59:23.376987 2f64                  Options.bottommost_compression: Disabled
+2020/05/02-10:59:23.376996 2f64       Options.prefix_extractor: nullptr
+2020/05/02-10:59:23.377004 2f64   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2020/05/02-10:59:23.377013 2f64             Options.num_levels: 7
+2020/05/02-10:59:23.377021 2f64        Options.min_write_buffer_number_to_merge: 1
+2020/05/02-10:59:23.377029 2f64     Options.max_write_buffer_number_to_maintain: 0
+2020/05/02-10:59:23.377037 2f64            Options.compression_opts.window_bits: -14
+2020/05/02-10:59:23.377045 2f64                  Options.compression_opts.level: -1
+2020/05/02-10:59:23.377053 2f64               Options.compression_opts.strategy: 0
+2020/05/02-10:59:23.377061 2f64         Options.compression_opts.max_dict_bytes: 0
+2020/05/02-10:59:23.377070 2f64         Options.compression_opts.zstd_max_train_bytes: 0
+2020/05/02-10:59:23.377078 2f64      Options.level0_file_num_compaction_trigger: 4
+2020/05/02-10:59:23.377086 2f64          Options.level0_slowdown_writes_trigger: 20
+2020/05/02-10:59:23.377094 2f64              Options.level0_stop_writes_trigger: 36
+2020/05/02-10:59:23.377102 2f64                   Options.target_file_size_base: 67108864
+2020/05/02-10:59:23.377110 2f64             Options.target_file_size_multiplier: 1
+2020/05/02-10:59:23.377118 2f64                Options.max_bytes_for_level_base: 268435456
+2020/05/02-10:59:23.377126 2f64 Options.level_compaction_dynamic_level_bytes: 0
+2020/05/02-10:59:23.377135 2f64          Options.max_bytes_for_level_multiplier: 10.000000
+2020/05/02-10:59:23.377145 2f64 Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2020/05/02-10:59:23.377153 2f64 Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2020/05/02-10:59:23.377162 2f64 Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2020/05/02-10:59:23.377170 2f64 Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2020/05/02-10:59:23.377178 2f64 Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2020/05/02-10:59:23.377186 2f64 Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2020/05/02-10:59:23.377194 2f64 Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2020/05/02-10:59:23.377202 2f64       Options.max_sequential_skip_in_iterations: 8
+2020/05/02-10:59:23.377210 2f64                    Options.max_compaction_bytes: 1677721600
+2020/05/02-10:59:23.377218 2f64                        Options.arena_block_size: 8388608
+2020/05/02-10:59:23.377227 2f64   Options.soft_pending_compaction_bytes_limit: 68719476736
+2020/05/02-10:59:23.377235 2f64   Options.hard_pending_compaction_bytes_limit: 274877906944
+2020/05/02-10:59:23.377243 2f64       Options.rate_limit_delay_max_milliseconds: 100
+2020/05/02-10:59:23.377251 2f64                Options.disable_auto_compactions: 0
+2020/05/02-10:59:23.377261 2f64                        Options.compaction_style: kCompactionStyleLevel
+2020/05/02-10:59:23.377270 2f64                          Options.compaction_pri: kByCompensatedSize
+2020/05/02-10:59:23.377278 2f64 Options.compaction_options_universal.size_ratio: 1
+2020/05/02-10:59:23.377286 2f64 Options.compaction_options_universal.min_merge_width: 2
+2020/05/02-10:59:23.377294 2f64 Options.compaction_options_universal.max_merge_width: 4294967295
+2020/05/02-10:59:23.377302 2f64 Options.compaction_options_universal.max_size_amplification_percent: 200
+2020/05/02-10:59:23.377311 2f64 Options.compaction_options_universal.compression_size_percent: -1
+2020/05/02-10:59:23.377320 2f64 Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2020/05/02-10:59:23.377330 2f64 Options.compaction_options_fifo.max_table_files_size: 1073741824
+2020/05/02-10:59:23.377339 2f64 Options.compaction_options_fifo.allow_compaction: 0
+2020/05/02-10:59:23.377347 2f64 Options.compaction_options_fifo.ttl: 0
+2020/05/02-10:59:23.377355 2f64                   Options.table_properties_collectors: 
+2020/05/02-10:59:23.377364 2f64                   Options.inplace_update_support: 0
+2020/05/02-10:59:23.377372 2f64                 Options.inplace_update_num_locks: 10000
+2020/05/02-10:59:23.377380 2f64               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2020/05/02-10:59:23.377389 2f64   Options.memtable_huge_page_size: 0
+2020/05/02-10:59:23.377397 2f64                           Options.bloom_locality: 0
+2020/05/02-10:59:23.377405 2f64                    Options.max_successive_merges: 0
+2020/05/02-10:59:23.377413 2f64                Options.optimize_filters_for_hits: 0
+2020/05/02-10:59:23.377421 2f64                Options.paranoid_file_checks: 0
+2020/05/02-10:59:23.377429 2f64                Options.force_consistency_checks: 0
+2020/05/02-10:59:23.377437 2f64                Options.report_bg_io_stats: 0
+2020/05/02-10:59:23.377445 2f64                               Options.ttl: 0
+2020/05/02-10:59:23.378785 2f64 [c:\users\aretter\code\rocksdb\db\version_set.cc:3361] Recovered from manifest file:D:\01workspace\woekspace02\apache-storm-1.2.3\apache-storm-1.2.3\examples\storm-starter\crawl\fetch/MANIFEST-000001 succeeded,manifest_file_number is 1, next_file_number is 3, last_sequence is 0, log_number is 0,prev_log_number is 0,max_column_family is 0,min_log_number_to_keep is 0
+2020/05/02-10:59:23.378809 2f64 [c:\users\aretter\code\rocksdb\db\version_set.cc:3369] Column family [default] (ID 0), log number is 0
+2020/05/02-10:59:23.390473 2f64 [c:\users\aretter\code\rocksdb\db\db_impl_open.cc:1219] DB pointer 0000000022E9DC90
+2020/05/02-10:59:24.436210 2f64 [c:\users\aretter\code\rocksdb\db\db_impl.cc:252] Shutdown: canceling all background work
+2020/05/02-10:59:24.438198 2f64 [c:\users\aretter\code\rocksdb\db\db_impl.cc:398] Shutdown complete
